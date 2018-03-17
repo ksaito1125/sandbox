@@ -17,7 +17,7 @@ forkしたリポジトリで下記を実行します。
 
 ```
 git fetch upstream
-git merge upstream master
+git merge upstream/master
 ```
 
 ### forkしたリポジトリのパッチを取り込む
