@@ -79,14 +79,12 @@ git merge upstream/master
 git checkout -b work
 ... 何か変更 ...
 git commit -a -m "コミットメッセージ"
-```
-
-
 git push origin work
+```
 
-```
-git fetch
-git merge origin/work
-```
+ブラウザからブランチを選択して``Pull Request``を作成します。
+``Pull Request``は、``fork``先のブランチから``upstream``の``master``ブランチへの``Pull Request``になります。
+
+``upstream``側で``Pull Request``がレビューされます
 
 以上
