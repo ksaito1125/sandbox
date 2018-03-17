@@ -32,7 +32,7 @@ git push upstream work
 
 ```
 git fetch
-git merge work
+git merge origin/work
 ```
 
 以上
